@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		16548D0F1E51989200009E43 /* ADTextStorageParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 16548D0E1E51989200009E43 /* ADTextStorageParser.m */; };
 		16B4E5111E24B2BF00E2528F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 16B4E5101E24B2BF00E2528F /* main.m */; };
 		16B4E5141E24B2BF00E2528F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 16B4E5131E24B2BF00E2528F /* AppDelegate.m */; };
 		16B4E5171E24B2BF00E2528F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16B4E5161E24B2BF00E2528F /* ViewController.m */; };
@@ -15,6 +16,31 @@
 		16B4E51F1E24B2BF00E2528F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16B4E51D1E24B2BF00E2528F /* LaunchScreen.storyboard */; };
 		16B4E52A1E24B2C000E2528F /* ADAttributedLabelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 16B4E5291E24B2C000E2528F /* ADAttributedLabelTests.m */; };
 		16B4E5351E24B2C000E2528F /* ADAttributedLabelUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 16B4E5341E24B2C000E2528F /* ADAttributedLabelUITests.m */; };
+		16B4E5931E24B6CB00E2528F /* NSMutableAttributedString+AD.m in Sources */ = {isa = PBXBuildFile; fileRef = 16B4E5921E24B6CB00E2528F /* NSMutableAttributedString+AD.m */; };
+		16B4E5961E25BC6E00E2528F /* ADAttributedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 16B4E5951E25BC6E00E2528F /* ADAttributedLabel.m */; };
+		16B4E5991E25BDC500E2528F /* ADDrawStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 16B4E5981E25BDC500E2528F /* ADDrawStorage.m */; };
+		16B4E59D1E261F7700E2528F /* ADImageStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 16B4E59C1E261F7700E2528F /* ADImageStorage.m */; };
+		16B4E5A01E26211A00E2528F /* ADImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 16B4E59F1E26211A00E2528F /* ADImageCache.m */; };
+		16B4E5A31E27556E00E2528F /* ADTextStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 16B4E5A21E27556E00E2528F /* ADTextStorage.m */; };
+		16B4E5A61E2757C000E2528F /* ADLinkTextStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 16B4E5A51E2757C000E2528F /* ADLinkTextStorage.m */; };
+		16B4E5A91E27593C00E2528F /* ADViewStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 16B4E5A81E27593C00E2528F /* ADViewStorage.m */; };
+		16B4E5AC1E275AF400E2528F /* ADTextContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 16B4E5AB1E275AF400E2528F /* ADTextContainer.m */; };
+		16B4E5B81E2C56BE00E2528F /* ADTextContainer+Extended.m in Sources */ = {isa = PBXBuildFile; fileRef = 16B4E5B71E2C56BE00E2528F /* ADTextContainer+Extended.m */; };
+		16B4E5BB1E2DA67C00E2528F /* CYLoLi.png in Resources */ = {isa = PBXBuildFile; fileRef = 16B4E5B91E2DA67C00E2528F /* CYLoLi.png */; };
+		16B4E5BC1E2DA67C00E2528F /* haha.png in Resources */ = {isa = PBXBuildFile; fileRef = 16B4E5BA1E2DA67C00E2528F /* haha.png */; };
+		16B4E5BE1E2DA69000E2528F /* avatar.png in Resources */ = {isa = PBXBuildFile; fileRef = 16B4E5BD1E2DA69000E2528F /* avatar.png */; };
+		16B4E5C11E2DB4AC00E2528F /* AutoLayoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16B4E5C01E2DB4AC00E2528F /* AutoLayoutViewController.m */; };
+		16B4E5C81E2DB6C700E2528F /* RegexKitLite.m in Sources */ = {isa = PBXBuildFile; fileRef = 16B4E5C71E2DB6C700E2528F /* RegexKitLite.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		16B4E5CB1E2DEA3D00E2528F /* ImageTextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16B4E5CA1E2DEA3D00E2528F /* ImageTextViewController.m */; };
+		16B4E5CE1E2DF1EA00E2528F /* AddViewTextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16B4E5CD1E2DF1EA00E2528F /* AddViewTextViewController.m */; };
+		16B4E5D11E2DF7EF00E2528F /* TextContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16B4E5D01E2DF7EF00E2528F /* TextContainerViewController.m */; };
+		16B4E5D41E2DF88F00E2528F /* ParseTextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16B4E5D31E2DF88F00E2528F /* ParseTextViewController.m */; };
+		16B4E5D61E2DF8EB00E2528F /* content.json in Resources */ = {isa = PBXBuildFile; fileRef = 16B4E5D51E2DF8EB00E2528F /* content.json */; };
+		16B4E5DA1E319E4800E2528F /* TPKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 16B4E5D91E319E4800E2528F /* TPKeyboardAvoidingScrollView.m */; };
+		16B4E5DD1E319E7600E2528F /* ADExamTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 16B4E5DC1E319E7600E2528F /* ADExamTextField.m */; };
+		16B4E5E01E31A37800E2528F /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 16B4E5DF1E31A37800E2528F /* UIScrollView+TPKeyboardAvoidingAdditions.m */; };
+		16B4E5E61E49A99F00E2528F /* AttributedLabelCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 16B4E5E51E49A99F00E2528F /* AttributedLabelCell.m */; };
+		16B4E5E91E49AA5A00E2528F /* TextTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16B4E5E81E49AA5A00E2528F /* TextTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +61,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		16548D0D1E51989200009E43 /* ADTextStorageParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADTextStorageParser.h; sourceTree = "<group>"; };
+		16548D0E1E51989200009E43 /* ADTextStorageParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADTextStorageParser.m; sourceTree = "<group>"; };
 		16B4E50C1E24B2BF00E2528F /* ADAttributedLabel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ADAttributedLabel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		16B4E5101E24B2BF00E2528F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		16B4E5121E24B2BF00E2528F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +79,52 @@
 		16B4E5301E24B2C000E2528F /* ADAttributedLabelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ADAttributedLabelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		16B4E5341E24B2C000E2528F /* ADAttributedLabelUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADAttributedLabelUITests.m; sourceTree = "<group>"; };
 		16B4E5361E24B2C000E2528F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16B4E5911E24B6CB00E2528F /* NSMutableAttributedString+AD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+AD.h"; sourceTree = "<group>"; };
+		16B4E5921E24B6CB00E2528F /* NSMutableAttributedString+AD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+AD.m"; sourceTree = "<group>"; };
+		16B4E5941E25BC6E00E2528F /* ADAttributedLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADAttributedLabel.h; sourceTree = "<group>"; };
+		16B4E5951E25BC6E00E2528F /* ADAttributedLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADAttributedLabel.m; sourceTree = "<group>"; };
+		16B4E5971E25BDC500E2528F /* ADDrawStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADDrawStorage.h; sourceTree = "<group>"; };
+		16B4E5981E25BDC500E2528F /* ADDrawStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADDrawStorage.m; sourceTree = "<group>"; };
+		16B4E59A1E25BEC900E2528F /* ADTextStorageProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADTextStorageProtocol.h; sourceTree = "<group>"; };
+		16B4E59B1E261F7700E2528F /* ADImageStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADImageStorage.h; sourceTree = "<group>"; };
+		16B4E59C1E261F7700E2528F /* ADImageStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADImageStorage.m; sourceTree = "<group>"; };
+		16B4E59E1E26211A00E2528F /* ADImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADImageCache.h; sourceTree = "<group>"; };
+		16B4E59F1E26211A00E2528F /* ADImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADImageCache.m; sourceTree = "<group>"; };
+		16B4E5A11E27556E00E2528F /* ADTextStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADTextStorage.h; sourceTree = "<group>"; };
+		16B4E5A21E27556E00E2528F /* ADTextStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADTextStorage.m; sourceTree = "<group>"; };
+		16B4E5A41E2757C000E2528F /* ADLinkTextStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADLinkTextStorage.h; sourceTree = "<group>"; };
+		16B4E5A51E2757C000E2528F /* ADLinkTextStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADLinkTextStorage.m; sourceTree = "<group>"; };
+		16B4E5A71E27593C00E2528F /* ADViewStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADViewStorage.h; sourceTree = "<group>"; };
+		16B4E5A81E27593C00E2528F /* ADViewStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADViewStorage.m; sourceTree = "<group>"; };
+		16B4E5AA1E275AF400E2528F /* ADTextContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADTextContainer.h; sourceTree = "<group>"; };
+		16B4E5AB1E275AF400E2528F /* ADTextContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADTextContainer.m; sourceTree = "<group>"; };
+		16B4E5B71E2C56BE00E2528F /* ADTextContainer+Extended.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ADTextContainer+Extended.m"; sourceTree = "<group>"; };
+		16B4E5B91E2DA67C00E2528F /* CYLoLi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CYLoLi.png; sourceTree = "<group>"; };
+		16B4E5BA1E2DA67C00E2528F /* haha.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = haha.png; sourceTree = "<group>"; };
+		16B4E5BD1E2DA69000E2528F /* avatar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = avatar.png; sourceTree = "<group>"; };
+		16B4E5BF1E2DB4AC00E2528F /* AutoLayoutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoLayoutViewController.h; sourceTree = "<group>"; };
+		16B4E5C01E2DB4AC00E2528F /* AutoLayoutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoLayoutViewController.m; sourceTree = "<group>"; };
+		16B4E5C61E2DB6C700E2528F /* RegexKitLite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegexKitLite.h; sourceTree = "<group>"; };
+		16B4E5C71E2DB6C700E2528F /* RegexKitLite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegexKitLite.m; sourceTree = "<group>"; };
+		16B4E5C91E2DEA3D00E2528F /* ImageTextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageTextViewController.h; sourceTree = "<group>"; };
+		16B4E5CA1E2DEA3D00E2528F /* ImageTextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageTextViewController.m; sourceTree = "<group>"; };
+		16B4E5CC1E2DF1EA00E2528F /* AddViewTextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddViewTextViewController.h; sourceTree = "<group>"; };
+		16B4E5CD1E2DF1EA00E2528F /* AddViewTextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddViewTextViewController.m; sourceTree = "<group>"; };
+		16B4E5CF1E2DF7EF00E2528F /* TextContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextContainerViewController.h; sourceTree = "<group>"; };
+		16B4E5D01E2DF7EF00E2528F /* TextContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextContainerViewController.m; sourceTree = "<group>"; };
+		16B4E5D21E2DF88F00E2528F /* ParseTextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParseTextViewController.h; sourceTree = "<group>"; };
+		16B4E5D31E2DF88F00E2528F /* ParseTextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParseTextViewController.m; sourceTree = "<group>"; };
+		16B4E5D51E2DF8EB00E2528F /* content.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = content.json; sourceTree = "<group>"; };
+		16B4E5D81E319E4800E2528F /* TPKeyboardAvoidingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingScrollView.h; sourceTree = "<group>"; };
+		16B4E5D91E319E4800E2528F /* TPKeyboardAvoidingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingScrollView.m; sourceTree = "<group>"; };
+		16B4E5DB1E319E7600E2528F /* ADExamTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADExamTextField.h; sourceTree = "<group>"; };
+		16B4E5DC1E319E7600E2528F /* ADExamTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADExamTextField.m; sourceTree = "<group>"; };
+		16B4E5DE1E31A37800E2528F /* UIScrollView+TPKeyboardAvoidingAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+TPKeyboardAvoidingAdditions.h"; sourceTree = "<group>"; };
+		16B4E5DF1E31A37800E2528F /* UIScrollView+TPKeyboardAvoidingAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+TPKeyboardAvoidingAdditions.m"; sourceTree = "<group>"; };
+		16B4E5E41E49A99F00E2528F /* AttributedLabelCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AttributedLabelCell.h; sourceTree = "<group>"; };
+		16B4E5E51E49A99F00E2528F /* AttributedLabelCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AttributedLabelCell.m; sourceTree = "<group>"; };
+		16B4E5E71E49AA5A00E2528F /* TextTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextTableViewController.h; sourceTree = "<group>"; };
+		16B4E5E81E49AA5A00E2528F /* TextTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,14 +175,35 @@
 		16B4E50E1E24B2BF00E2528F /* ADAttributedLabel */ = {
 			isa = PBXGroup;
 			children = (
+				16B4E5C51E2DB6C700E2528F /* RegexKitLite */,
+				16B4E5711E24B41A00E2528F /* ADAttributeLabel */,
+				16B4E5D71E319E4800E2528F /* Views */,
 				16B4E5121E24B2BF00E2528F /* AppDelegate.h */,
 				16B4E5131E24B2BF00E2528F /* AppDelegate.m */,
 				16B4E5151E24B2BF00E2528F /* ViewController.h */,
 				16B4E5161E24B2BF00E2528F /* ViewController.m */,
+				16B4E5C91E2DEA3D00E2528F /* ImageTextViewController.h */,
+				16B4E5CA1E2DEA3D00E2528F /* ImageTextViewController.m */,
+				16B4E5CC1E2DF1EA00E2528F /* AddViewTextViewController.h */,
+				16B4E5CD1E2DF1EA00E2528F /* AddViewTextViewController.m */,
+				16B4E5CF1E2DF7EF00E2528F /* TextContainerViewController.h */,
+				16B4E5D01E2DF7EF00E2528F /* TextContainerViewController.m */,
+				16B4E5D21E2DF88F00E2528F /* ParseTextViewController.h */,
+				16B4E5D31E2DF88F00E2528F /* ParseTextViewController.m */,
+				16548D0D1E51989200009E43 /* ADTextStorageParser.h */,
+				16548D0E1E51989200009E43 /* ADTextStorageParser.m */,
+				16B4E5BF1E2DB4AC00E2528F /* AutoLayoutViewController.h */,
+				16B4E5C01E2DB4AC00E2528F /* AutoLayoutViewController.m */,
+				16B4E5E71E49AA5A00E2528F /* TextTableViewController.h */,
+				16B4E5E81E49AA5A00E2528F /* TextTableViewController.m */,
 				16B4E5181E24B2BF00E2528F /* Main.storyboard */,
 				16B4E51B1E24B2BF00E2528F /* Assets.xcassets */,
 				16B4E51D1E24B2BF00E2528F /* LaunchScreen.storyboard */,
 				16B4E5201E24B2BF00E2528F /* Info.plist */,
+				16B4E5B91E2DA67C00E2528F /* CYLoLi.png */,
+				16B4E5BD1E2DA69000E2528F /* avatar.png */,
+				16B4E5BA1E2DA67C00E2528F /* haha.png */,
+				16B4E5D51E2DF8EB00E2528F /* content.json */,
 				16B4E50F1E24B2BF00E2528F /* Supporting Files */,
 			);
 			path = ADAttributedLabel;
@@ -138,6 +233,65 @@
 				16B4E5361E24B2C000E2528F /* Info.plist */,
 			);
 			path = ADAttributedLabelUITests;
+			sourceTree = "<group>";
+		};
+		16B4E5711E24B41A00E2528F /* ADAttributeLabel */ = {
+			isa = PBXGroup;
+			children = (
+				16B4E5741E24B41A00E2528F /* TextStroage */,
+				16B4E5911E24B6CB00E2528F /* NSMutableAttributedString+AD.h */,
+				16B4E5921E24B6CB00E2528F /* NSMutableAttributedString+AD.m */,
+				16B4E5941E25BC6E00E2528F /* ADAttributedLabel.h */,
+				16B4E5951E25BC6E00E2528F /* ADAttributedLabel.m */,
+				16B4E59E1E26211A00E2528F /* ADImageCache.h */,
+				16B4E59F1E26211A00E2528F /* ADImageCache.m */,
+				16B4E5B71E2C56BE00E2528F /* ADTextContainer+Extended.m */,
+				16B4E5AA1E275AF400E2528F /* ADTextContainer.h */,
+				16B4E5AB1E275AF400E2528F /* ADTextContainer.m */,
+				16B4E59A1E25BEC900E2528F /* ADTextStorageProtocol.h */,
+			);
+			path = ADAttributeLabel;
+			sourceTree = "<group>";
+		};
+		16B4E5741E24B41A00E2528F /* TextStroage */ = {
+			isa = PBXGroup;
+			children = (
+				16B4E5971E25BDC500E2528F /* ADDrawStorage.h */,
+				16B4E5981E25BDC500E2528F /* ADDrawStorage.m */,
+				16B4E59B1E261F7700E2528F /* ADImageStorage.h */,
+				16B4E59C1E261F7700E2528F /* ADImageStorage.m */,
+				16B4E5A41E2757C000E2528F /* ADLinkTextStorage.h */,
+				16B4E5A51E2757C000E2528F /* ADLinkTextStorage.m */,
+				16B4E5A11E27556E00E2528F /* ADTextStorage.h */,
+				16B4E5A21E27556E00E2528F /* ADTextStorage.m */,
+				16B4E5A71E27593C00E2528F /* ADViewStorage.h */,
+				16B4E5A81E27593C00E2528F /* ADViewStorage.m */,
+			);
+			path = TextStroage;
+			sourceTree = "<group>";
+		};
+		16B4E5C51E2DB6C700E2528F /* RegexKitLite */ = {
+			isa = PBXGroup;
+			children = (
+				16B4E5C61E2DB6C700E2528F /* RegexKitLite.h */,
+				16B4E5C71E2DB6C700E2528F /* RegexKitLite.m */,
+			);
+			path = RegexKitLite;
+			sourceTree = "<group>";
+		};
+		16B4E5D71E319E4800E2528F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				16B4E5DE1E31A37800E2528F /* UIScrollView+TPKeyboardAvoidingAdditions.h */,
+				16B4E5DF1E31A37800E2528F /* UIScrollView+TPKeyboardAvoidingAdditions.m */,
+				16B4E5D81E319E4800E2528F /* TPKeyboardAvoidingScrollView.h */,
+				16B4E5D91E319E4800E2528F /* TPKeyboardAvoidingScrollView.m */,
+				16B4E5DB1E319E7600E2528F /* ADExamTextField.h */,
+				16B4E5DC1E319E7600E2528F /* ADExamTextField.m */,
+				16B4E5E41E49A99F00E2528F /* AttributedLabelCell.h */,
+				16B4E5E51E49A99F00E2528F /* AttributedLabelCell.m */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,7 +400,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16B4E5D61E2DF8EB00E2528F /* content.json in Resources */,
+				16B4E5BE1E2DA69000E2528F /* avatar.png in Resources */,
 				16B4E51F1E24B2BF00E2528F /* LaunchScreen.storyboard in Resources */,
+				16B4E5BC1E2DA67C00E2528F /* haha.png in Resources */,
+				16B4E5BB1E2DA67C00E2528F /* CYLoLi.png in Resources */,
 				16B4E51C1E24B2BF00E2528F /* Assets.xcassets in Resources */,
 				16B4E51A1E24B2BF00E2528F /* Main.storyboard in Resources */,
 			);
@@ -273,9 +431,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16B4E5E91E49AA5A00E2528F /* TextTableViewController.m in Sources */,
+				16B4E5961E25BC6E00E2528F /* ADAttributedLabel.m in Sources */,
+				16B4E5DA1E319E4800E2528F /* TPKeyboardAvoidingScrollView.m in Sources */,
+				16B4E5B81E2C56BE00E2528F /* ADTextContainer+Extended.m in Sources */,
+				16B4E5991E25BDC500E2528F /* ADDrawStorage.m in Sources */,
+				16B4E5CE1E2DF1EA00E2528F /* AddViewTextViewController.m in Sources */,
+				16B4E5E01E31A37800E2528F /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */,
+				16B4E5C81E2DB6C700E2528F /* RegexKitLite.m in Sources */,
+				16B4E5C11E2DB4AC00E2528F /* AutoLayoutViewController.m in Sources */,
+				16B4E5A01E26211A00E2528F /* ADImageCache.m in Sources */,
+				16B4E5AC1E275AF400E2528F /* ADTextContainer.m in Sources */,
+				16B4E5D41E2DF88F00E2528F /* ParseTextViewController.m in Sources */,
+				16B4E5A31E27556E00E2528F /* ADTextStorage.m in Sources */,
 				16B4E5171E24B2BF00E2528F /* ViewController.m in Sources */,
+				16B4E59D1E261F7700E2528F /* ADImageStorage.m in Sources */,
+				16B4E5D11E2DF7EF00E2528F /* TextContainerViewController.m in Sources */,
 				16B4E5141E24B2BF00E2528F /* AppDelegate.m in Sources */,
+				16B4E5E61E49A99F00E2528F /* AttributedLabelCell.m in Sources */,
+				16B4E5CB1E2DEA3D00E2528F /* ImageTextViewController.m in Sources */,
 				16B4E5111E24B2BF00E2528F /* main.m in Sources */,
+				16548D0F1E51989200009E43 /* ADTextStorageParser.m in Sources */,
+				16B4E5DD1E319E7600E2528F /* ADExamTextField.m in Sources */,
+				16B4E5A61E2757C000E2528F /* ADLinkTextStorage.m in Sources */,
+				16B4E5931E24B6CB00E2528F /* NSMutableAttributedString+AD.m in Sources */,
+				16B4E5A91E27593C00E2528F /* ADViewStorage.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -370,7 +550,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -412,7 +592,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -426,6 +606,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ADAttributedLabel/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-licucore";
 				PRODUCT_BUNDLE_IDENTIFIER = com.aodong.ADAttributedLabel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -437,6 +618,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ADAttributedLabel/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-licucore";
 				PRODUCT_BUNDLE_IDENTIFIER = com.aodong.ADAttributedLabel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -507,6 +689,7 @@
 				16B4E53B1E24B2C000E2528F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		16B4E53C1E24B2C000E2528F /* Build configuration list for PBXNativeTarget "ADAttributedLabelTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +698,7 @@
 				16B4E53E1E24B2C000E2528F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		16B4E53F1E24B2C000E2528F /* Build configuration list for PBXNativeTarget "ADAttributedLabelUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +707,7 @@
 				16B4E5411E24B2C000E2528F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
